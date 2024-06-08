@@ -14,7 +14,13 @@
 */
 
 // Your code goes here
+function logMessage(arg1, arg2){
+  const result = arg1 +arg2;
+  return result;
+}
 
+const hello = logMessage('hello', ' world!');
+console.log(hello);
 
 
 
@@ -30,7 +36,13 @@
 */
 
 // Your code goes here...
+function logMyMessage(string1) {
+  const firstMessage = string1;
+  return firstMessage;
+}
 
+const message = logMyMessage('I log my first message!');
+console.log(message);
 
 
 
@@ -45,7 +57,13 @@
 */
 
 // Your code goes here...
+function logMessageWithMyName(string2) {
+  const nameWithMessage = string2;
+  return nameWithMessage;
+}
 
+const namedMessage = 'My name is ' + logMessageWithMyName("Sergio") + "!";
+console.log(namedMessage)
 
 
 
@@ -61,7 +79,11 @@
 */
 
 // Your code goes here...
+function logMyInfo(name, address){
+  return name, address;
+}
 
+var myInfo = 
 
 
 
