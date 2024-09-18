@@ -14,6 +14,11 @@
 */
 
 // Your code goes here
+function logMessage(){
+  return log = 'Hello World'
+}
+console.log(logMessage);
+
 
 
 
@@ -30,7 +35,12 @@
 */
 
 // Your code goes here...
+function logMyMessage(arg1){
+  return myMessage = arg1;
+}
 
+const message = logMyMessage('I log my first message');
+console.log(message);
 
 
 
