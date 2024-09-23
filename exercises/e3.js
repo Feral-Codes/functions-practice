@@ -41,7 +41,15 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
  */
 
 // Your code goes here...
+function getValueWithConditionOne(num1, num2){
 
+}
+
+const getValueWithConditionTwo = (num1, num2) => ;
+
+const getValueWithConditionThree = function (num1, num2) {
+
+}
 
 
 
