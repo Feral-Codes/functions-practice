@@ -15,7 +15,7 @@
 
 // Your code goes here
 function logMessage(){
-  console.log('Hello, world')
+  console.log('Hello, world');
 }
 logMessage();
 
