@@ -16,12 +16,16 @@
 
 // Your code goes here...
 function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
-  if (arr !== []) return false;
-  if (item > val1 && item < val2){
+  if (!arr.length) return false;
+  if ([] > val1 && [] < val2){
     return true;
-  }
-  return false;
+  }else return false;
 }
+
+doesArrayIncludeItemsBetweenVals([3,1,5,], 4);
+
+
+
 
 
 
@@ -45,7 +49,7 @@ function getValueWithConditionOne(num1, num2){
 
 }
 
-const getValueWithConditionTwo = (num1, num2) => ;
+const getValueWithConditionTwo = (num1, num2) => {}; 
 
 const getValueWithConditionThree = function (num1, num2) {
 
