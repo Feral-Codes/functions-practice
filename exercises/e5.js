@@ -15,13 +15,13 @@
 const getDiffTwentySeven = (num) => {
   let difference = 27 - num;
   if(difference > 27) {
-    return difference * 2;
+    return Math.abs( 27 - num) * 2;
   }
   return difference
 }
 
-console.log(getDiffTwentySeven(61));
-console.log(getDiffTwentySeven(10));
+console.log(getDiffTwentySeven(13));
+console.log(getDiffTwentySeven(37));
 
 
 
