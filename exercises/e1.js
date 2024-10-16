@@ -78,7 +78,7 @@ logMessageWithMyName('Sergio');
 
 // Your code goes here...
 function logMyInfo(arg1, arg2) {
-  console.log('My name is ' + arg1 + ', and I am ' + arg2 + 'years old!!');
+  console.log('My name is ' + arg1 + ', and I am ' + arg2 + ' years old!!');
 }
 
 logMyInfo('Sergio', 28);

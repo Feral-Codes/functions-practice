@@ -18,7 +18,7 @@
 function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
   if (arr.length === 0) return false;
   
-  for(let i = 0; i < arr.lengthl; i++) {
+  for(let i = 0; i < arr.length; i++) {
     if(arr[i] > val1 && arr[i] < val2){
       return true
     }
