@@ -14,7 +14,7 @@
 // Your code goes here...
 const getDiffTwentySeven = (num) => {
   let difference = 27 - num;
-  if(difference > 27) {
+  if(num > 27) {
     return Math.abs( 27 - num) * 2;
   }
   return difference

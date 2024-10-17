@@ -27,8 +27,6 @@ function doesArrayIncludeItemsBetweenVals(arr, val1, val2) {
 
 }
 
-let includeItemsBetweenVAls = doesArrayIncludeItemsBetweenVals([2, 4, 2], 3, 5);
-let includeItemsBetweenVAls2 = doesArrayIncludeItemsBetweenVals([2, 4, 2], 5, 10);
 
 
 
@@ -57,11 +55,7 @@ function getValueWithConditionOne(num1, num2){
   }else return (num1 +num2) * 2;
 }
 
-let sum1 = getValueWithConditionOne(40, 40);
-console.log(sum1);
 
-let sum1Alternate = getValueWithConditionOne(10,20);
-console.log(sum1Alternate)
 
 
 
@@ -71,11 +65,7 @@ const getValueWithConditionTwo = (num1, num2) => {
   }else return (num1 +num2) * 2;
 }
 
-let sum2 = getValueWithConditionTwo(40, 40);
-console.log(sum2);
 
-let sum2Alternate = getValueWithConditionTwo(10,20);
-console.log(sum2Alternate);
 
 
 
@@ -85,8 +75,6 @@ const getValueWithConditionThree = function (num1, num2) {
   }else return (num1 +num2) * 2;
 }
 
-getValueWithConditionThree(40,40);
-getValueWithConditionThree(20,10);
 
 
 
