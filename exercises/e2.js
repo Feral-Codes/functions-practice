@@ -37,15 +37,20 @@ const room3 = rectArea(4, 8);
 
 // Your code goes here...
 function totalRoomsArea(area1, area2, area3) {
-  return area1 * area2 * area3;
+
+  return area1 + area2 + area3;
 };
 
 
 // Make the function call in the parentheses of the console.log statement.
 // Use room1, room2, room3 variables as arguments for the function call
-console.log(totalRoomsArea(room1, room2, room3));
-
-
+// console.log(totalRoomsArea(room1, room2, room3))
+function result() {
+  if(room1 === NaN || room2 === NaN || room3 === NaN){
+    return
+  }
+  console.log(totalRoomsArea(room1, room2, room3));
+}
 
 // === TEST YOURSELF ===
 // Once you're finished run the test with "npm run test-2"
